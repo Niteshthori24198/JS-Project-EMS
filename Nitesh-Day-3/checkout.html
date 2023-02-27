@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./checkout.css">
+</head>
+<body>
+
+    <div id="Checkout_Nav">
+
+        <img src="./logoImage.png" alt="">
+
+    </div>
+    
+    <div class="checkout_container">
+
+        <div id="checkout_form">
+
+            <h3>Shipping Address</h3>
+
+            <div>
+
+                <div>
+                    <p>First Name</p>
+                    <input type="text" placeholder="Enter your First Name" id="CustomerFName">
+                </div>
+
+                <div>
+                    <p>Last Name</p>
+                    <input type="text" placeholder="Enter your Last Name" id="CustomerLName">
+                </div>
+                
+            </div>
+
+            <div>
+                <p>Country</p>
+                <select name="Country_Name" id="Country_Name">
+                    <option value="">Select</option>
+                    <option value="India">India</option>
+                    <option value="United State">United State</option>
+                    <option value="Canada">Canada</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="Australia">Australia</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Pakisthan">Pakisthan</option>
+                </select>
+                <p>Address</p>
+                <input type="text" id="CustomerAddress">
+                <p>City</p>
+                <input type="text" id="CustomerCityName">
+            </div>
+
+            <div>
+
+                <div>
+
+                    <p>State</p>
+                    <select name="State" id="State_Select">
+
+                        <option value="">Select</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Ontario">Ontario</option>
+                        <option value="Alaska">Alaska</option>
+                        <option value="California">California</option>
+                        <option value="Scotland">Scotland</option>
+                        <option value="Esteren Cap">Esteren Cap</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Adelaide">Adelaide</option>
+                       
+                    </select>
+
+                </div>
+
+                <div>
+
+                    <p>Zip Code</p>
+                    <input type="number" id="CustomerZipCode">
+
+                </div>
+
+            </div>
+
+            <div>
+                <p>Phone</p>
+                <input type="number" id="CustomerPhoneNumber">
+            </div>
+
+            <div>
+                <button>Continue To Shipping Method</button>
+            </div>
+
+            <div class="PaymentSection">
+
+                <!-- payment section -->
+
+
+
+            </div>
+
+        </div>
+
+        <div id="Customer_Cart_items">
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>
+
+<script src="./checkout.js"></script>

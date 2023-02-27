@@ -1,0 +1,7 @@
+##
+
+GET https://63c63ce0d307b76967351ede.mockapi.io/product
+
+
+###
+GET https://63c63ce0d307b76967351ede.mockapi.io/shoes

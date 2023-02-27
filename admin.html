@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./admin.css">
+</head>
+<body>
+<div id="Sanketh-admin">
+  <!-- -----------------------------------------sidecard---------------------------------------------- -->
+<div id="Sanketh-menu-card">
+<div id="Sanketh-logo-div">
+<img src="./images/Mountaineer.png" alt="">
+</div>
+<!-- ------------------------------------------sidecard------------------------------------------------------------ -->
+<div id="Sanketh-menu-items">
+ <div class="Sanketh-orders">
+  <a href="./admin.html">Orders</a>
+ </div>
+ <div class="Sanketh-orders">
+  <a href="./products.html">Products</a>
+ </div>
+ <div class="Sanketh-orders">
+  <a href="./customers.html">Customers</a>
+ </div>
+ <!-- <div class="Sanketh-orders">
+  <a href="./analytics.html">Analytics</a>
+ </div> -->
+ <div class="Sanketh-orders">
+  <a href="./index.html">Logout</a>
+ </div>
+</div>
+</div>
+<div id="Sanketh-order-page">
+  <nav>
+    <h3>Dashboard</h3>
+    <input type="text" id="inputorder" placeholder="Search...">
+     <p>Admin</p>   
+   <img src="./images/adminicon.png" alt="">
+  </nav>
+  
+  <!-- <div id="Sanketh_order-container"> -->
+  
+
+  <div id="Sanketh_order-container">
+          <div id="Sanketh_order-display-container">
+            <div>
+              <h3>Orders Page</h3>
+              <select name="filter" id="Sanketh-order-filter">
+                <option value="">Filter By Status</option>
+                <option value="">Order Confirmed</option>
+                <option value="">Order Shipped</option>
+                <option value="">Order Out for Delivery</option>
+                <option value="">Order Delivered</option>
+              </select>
+            </div>
+            <!-- <div id="Sanketh-product-form">
+              <p>Add New Products</p>
+            <form action="">
+              <input type="text" id="Sanketh-id-value" placeholder="Enter ID">
+              <input type="text" id="Sanketh-image-value" placeholder="Enter Image URL">
+              <input type="text" id="Sanketh-name-value" placeholder="Enter Name">
+              <input type="text" id="Sanketh-category-value" placeholder="Enter Category">
+              <input type="text" id="Sanketh-Description-value" placeholder="Enter Description">
+              <input type="text" id="Sanketh-price-value" placeholder="Enter Price">
+              <button id="Sanketh-products-add">Add Product</button>
+              <button id="Sanketh-products-update">Update</button>
+            </form>
+          </div> -->
+          <table id="Sanketh_order_data">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Customer Name</th>
+                <th>Address</th>
+                <th>Pin Code</th>
+                <th>Phone No.</th>
+                <th>Product Image</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Status</th>
+                <th>Delivered</th>
+              </tr>
+            </thead>
+            <tbody id="Sanketh-order-append">
+<!-- -------------------------------------items from api appended here--------------------------------- -->
+            </tbody>
+          </table>
+          <div id="Sanketh-orderpagination-part">
+            <!-- -------------------------paginationbuttons------------------------------------------------------------ -->
+                    
+                      </div>
+          </div>
+        </div>
+
+
+  <!-- </div> -->
+</div> 
+
+
+
+</div>
+</body>
+</html>
+<script src="./admin.js"></script>

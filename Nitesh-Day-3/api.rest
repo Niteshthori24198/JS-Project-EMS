@@ -1,0 +1,5 @@
+##
+GET https://63ca7e2e4f53a00420242ac5.mockapi.io/User
+
+###
+GET https://63ca7e2e4f53a00420242ac5.mockapi.io/User

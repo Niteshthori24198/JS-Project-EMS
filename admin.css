@@ -1,0 +1,220 @@
+body{
+margin:0px
+}
+
+ 
+#Sanketh-admin{
+    display:flex;
+}
+#Sanketh-logo-div{
+    width:58%;
+    height:56px;
+    /* border:2px solid black; */
+    margin-left:30px;
+    margin-top:5px;
+}
+ #Sanketh-logo-div>img{
+    width:100%;
+    height:100%;
+    cursor:pointer;
+
+}
+
+
+
+#Sanketh-menu-card{
+width:17%;
+background-color: rgba(49,63,53,255);
+height:986px;
+margin:0px;
+padding:0px;
+position:sticky;
+top:0px;
+
+
+
+
+ } 
+
+#Sanketh-menu-items{
+    width:50%;
+    /* border:2px solid red; */
+    margin-left:35px;
+    margin-top:40px;
+    position:sticky;
+top:0px;
+
+
+
+   
+}
+
+/* #Sanketh-menu-items{
+    /* font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 1.5rem; */
+/* } */
+
+/* #Sanketh-menu-items>h3{
+    font-family:Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;
+} */
+
+.Sanketh-orders{
+    display:block;
+    width:100%;
+    height:30px;
+    /* border:2px solid black; */
+    margin-top:20px;
+    text-align: center;
+    border-radius:5px;
+    padding-top:8px;
+    padding-bottom:4px;
+    /* border:2px solid red; */
+    
+}
+.Sanketh-orders:hover{
+    background-color:rgba(49,102,53,255);
+  
+}
+.Sanketh-orders>a{
+text-decoration:none;
+ font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;
+font-size: 16px;
+color:white;
+}
+
+#Sanketh-order-page{
+    display:block;
+    
+    width:100%;
+}
+#Sanketh-order-page>nav{
+    display:flex;
+    color:white;
+    width:100%;
+    height:60px;
+    justify-content:space-around;
+    background-color:rgba(49,63,53,255);
+    position:sticky;
+    top:0px;
+    font-family:Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif ;
+    font-size:20px;
+}
+#Sanketh-order-page>nav>input{
+    width:590px;
+    height:40px;
+    border-radius: 10px;
+    font-size:20px;
+    padding-left:30px;
+    margin-top:10px;
+    border:0px;
+    
+  
+}
+#Sanketh_order-container{
+    width:100%;
+    /* border:2px solid red; */
+    background-color: rgb(240, 240, 240);
+} 
+
+
+
+#Sanketh_order-container{
+    width:100%;
+   
+    background-color: rgb(240, 240, 240); 
+
+    padding-top:70px;
+
+}
+
+
+#Sanketh_order-display-container{
+    width:85%;
+    height:1400px;
+    /* border:2px solid grey; */
+    background-color:white;
+    margin:auto;
+    border-radius: 8px;
+    
+
+}
+#Sanketh_order-display-container>div>h3{
+    font-size:18px;
+    padding: 20px 0px 0px 20px; 
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;;
+    
+    
+   
+}
+
+#Sanketh_order_data{
+    justify-content:space-evenly;
+    font-family:sans-serif;
+    font-size:18px;
+    border:1px solid black;
+    width:99%;
+    color:grey;
+    margin-left:4px;
+    }
+
+
+    .order_card__img{
+        height:100px;
+        width:100px
+    }
+    hr{
+        width:4830%;
+        background-color:grey;
+        height:1px
+    }
+    #Sanketh-orderpagination-part{
+        width:60%;
+        height:100px;
+        
+        margin:auto;
+        margin-top:20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+      
+       
+       }
+    .Sanketh-orderpagination-buttons{
+        width:90px;
+        height:40px;
+        background-color:rgba(49,63,53,255);
+        color:white;
+        border:none;
+        margin-left:10px;
+        border-radius:5px;
+        font-size:18px;
+        
+    }
+    .Sanketh-delivered-link{
+        background-color:green;
+        color:white;
+        font-size: 14px;
+        border:none;
+        padding:6px 8px;
+        border-radius:5px;
+    }
+
+    #Sanketh-order-filter{
+     border-radius: 4px;
+     
+     margin-right: 20px;
+     
+    }
+
+    #Sanketh_order-display-container>div{
+   
+       display:flex;
+       justify-content: space-between;
+       align-items: center;
+        
+       
+    }
